@@ -57,12 +57,6 @@ a {
   font-weight: bold;
 }
 
-.all-projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -146,6 +140,147 @@ footer {
 }
 
 @media (min-width: 768px) {
-  
+  .main-nav {
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+  }
+
+  .navigation-zero {
+    font-size: 43px;
+    padding-top: 30px;
+  }
+
+  .navigation {
+    font-size: 24px;
+    padding: 15px 0;
+    background-color: inherit;
+  }
+
+  header {
+    padding: 40px;
+  }
+
+  .hero {
+    display: flex;
+    margin-top: -40px;
+  }
+
+  .hero-image {
+    width: 30%;
+    order: 1;
+    flex-grow: 2;
+  }
+
+  .hero-paragraph {
+    width: 30%;
+    flex-grow:3;
+    font-size: 27px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 50px;
+  }
+
+  .all-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project {
+    width: 50%;
+    padding: 10px 0;
+  }
+
+  p {
+    font-size: 22px;
+    margin: 20px;
+  }
+
+  .portfolio-image {
+    margin-bottom: 17px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .contact {
+    padding: 60px 0 90px;
+  }
+
+  .contact-p {
+    margin: 20px 160px;
+  }
+
+  .fothide {
+    display: none;
+  }
+  #fotone, #fottwo, #fotthree {
+    display: inline-block;
+    font-size: 23px;
+    padding-right: 20px;
+  }
+  .fotname {
+    font-size: 28px;
+  }
+
+  footer {
+    padding: 40px 40px 100px;
+  }
+}
+
+@media (min-width:1024px) {
+  .hero {
+    margin-top: 0;
+  }
+
+  .navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .navigation-zero {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+  }
+
+  .navigation {
+    margin: 0;
+    margin-right: 40px;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  #portfolio {
+    margin-bottom: 60px;
+  }
+
+  .project {
+    width: 33%;
+  }
+
+  .portfolio-image.four, .portfolio-image.five, .portfolio-image.six {
+    margin-top: 45px;
+  }
+
+  .contact-p {
+    font-size: 27px;
+    margin: 20px 250px;
+  }
+
+  footer {
+    padding: 40px;
+  }
+
+  .fotname {
+    font-size: 21px;
+  }
+
+  #fotone, #fottwo, #fotthree {
+    font-size: 17px;
   }
 }
