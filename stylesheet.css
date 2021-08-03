@@ -1,7 +1,7 @@
 html {
   align-items: center;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;;
 }
 
 main {
@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #f8f8f8;
-  padding:25px;
+  padding: 10px;
 }
 
 #header1 {
@@ -25,24 +25,37 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-left: 0;
 }
 
 
 .navigation-zero {
-  font-size: 80px;
+  font-size: 30px;
   text-align: center;
 }
 
 .navigation {
   background-color: white;
-  font-size: 48px;
+  font-size: 16px;
   color: #222;
-  padding: 30px 0;
+  padding: 10px 0;
   width: 95%;
-  margin: 10px;
+  margin: 3px;
   text-align: center;
+}
+
+h2 {
+  font-size: 19px;
+  padding: 15px 0;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.project {
+  margin-bottom: 45px;
 }
 
 li {
@@ -67,22 +80,18 @@ a {
 }
 
 .hero-paragraph {
-  font-size: 40px;
-  margin: 120px 0;
-  padding: 0 35px;
-}
-
-.project {
-  padding: 50px 0;
+  font-size: 17px;
+  margin: 30px 0 60px;
+  padding: 0 10px;
 }
 
 #portfolio {
-  padding-top: 50px
+  padding-top: 50px;
+  margin-bottom: 45px;
 }
 
 .contact, footer {
   background-color: #f8f8f8;
-  padding: 50px;
 }
 
 img {
@@ -97,22 +106,22 @@ h1, h2, h3 {
 
 p {
   color: #888;
-  margin: 40px;
-  font-size: 25px;
+  margin: 15px;
+  font-size: 16px;
 }
 
 .contact {
-  padding: 150px 0;
-  margin-top: 75px;
+  padding: 45px 0;
+  margin-top: 45px;
 }
 
 .contact-p {
-  padding: 40px 0;
+  margin-bottom: 40px;
 }
 
 footer {
   border-top: 1px solid #999;
-  padding-top: 60px;
+  padding: 25px 20px 32px;
 }
 
 .footer-nav {
@@ -121,13 +130,13 @@ footer {
 }
 
 .fotname {
-  font-size: 44px;
+  font-size: 17px;
   color: #333;
   font-weight: bold;
 }
 
 .fothide {
-  font-size: 37px;
+  font-size: 15px;
 }
 
 #fotone, #fottwo, #fotthree {
