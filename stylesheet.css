@@ -1,47 +1,60 @@
 html {
   align-items: center;
-  text-align: center;
   box-sizing: border-box;
   font-size: 1.25em;
   font-family: sans-serif;
+}
+
+main {
+  text-align: center;
 }
 
 body {
   margin: 0;
 }
 
-.navigation-bar {
-  display: inline-block;
-  flex-direction: column;
+header {
+  background-color: #f8f8f8;
+  padding:25px;
 }
 
 #header1 {
   color: #333;
 }
 
+.main-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  padding-left: 0;
+}
+
+
 .navigation-zero {
-  order: -1;
   font-size: 80px;
+  text-align: center;
+}
+
+.navigation {
+  background-color: white;
+  font-size: 48px;
+  color: #222;
+  padding: 30px 0;
+  width: 95%;
+  margin: 10px;
+  text-align: center;
+}
+
+li {
+  display: block;
+  width: auto;
 }
 
 a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-}
-
-.navigation {
-  background-color: white;
-  align-items: center;
-  font-size: 48px;
-  color: #222;
-  padding: 25px;
-}
-
-li {
-  display: block;
-  width: auto;
-  height: 130px;
 }
 
 .all-projects {
@@ -53,6 +66,7 @@ li {
 .hero {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .hero-image {
@@ -62,6 +76,7 @@ li {
 .hero-paragraph {
   font-size: 40px;
   margin: 120px 0;
+  padding: 0 35px;
 }
 
 .project {
@@ -72,22 +87,9 @@ li {
   padding-top: 50px
 }
 
-.main-nav {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-  padding: 25px;
-}
-
-header, .contact, footer {
+.contact, footer {
   background-color: #f8f8f8;
   padding: 50px;
-}
-
-.bold {
-  display: inline;
-  font-weight: bolder;
-  font-size: 1.5em
 }
 
 img {
@@ -117,30 +119,33 @@ p {
 
 footer {
   border-top: 1px solid #999;
+  padding-top: 60px;
 }
 
 .footer-nav {
-  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .fotname {
-  font-size: 42px;
+  font-size: 44px;
+  color: #333;
+  font-weight: bold;
 }
 
 .fothide {
   font-size: 37px;
 }
 
-#fotname {
-  color: #blue;
-}
-
 #fotone, #fottwo, #fotthree {
   display: none;
 }
 
-.fot {
-  display: inline-block;
-  justify-content: space-between;
-  width: 40%;
+.bold {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  
+  }
 }
