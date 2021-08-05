@@ -1,1 +1,1 @@
-This is my second Treehouse techdegree project. I have to code a mock-up design from scratch and make it responsive.
+Built a responsive, mobile-first layout from scratch using html and css. This is the second project of the Treehouse techdegree.
